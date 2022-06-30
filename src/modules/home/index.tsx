@@ -54,9 +54,27 @@ const Home: React.FC = () => {
         <Heading color="#f2f2f2" size="md">
           Preencha o formulário para criar uma pessoa.
         </Heading>
-        <Input value={infos.name} color="#f2f2f2" id="name" type="text" />
-        <Input value={infos.email} color="#f2f2f2" id="email" type="email" />
-        <Input value={infos.sector} color="#f2f2f2" id="sector" type="text" />
+        <Input
+          placeholder="Nome"
+          value={infos.name}
+          color="#f2f2f2"
+          id="name"
+          type="text"
+        />
+        <Input
+          placeholder="E-mail"
+          value={infos.email}
+          color="#f2f2f2"
+          id="email"
+          type="email"
+        />
+        <Input
+          placeholder="Setor"
+          value={infos.sector}
+          color="#f2f2f2"
+          id="sector"
+          type="text"
+        />
         <Button colorScheme="blue" onClick={handleCreatePerson}>
           Enviar
         </Button>
