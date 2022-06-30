@@ -1,0 +1,77 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  margin: auto;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2a2b31;
+}
+header#header {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  background: rgba(101, 97, 156, 0.61);
+}
+nav#nav {
+  max-width: 864px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 1rem;
+}
+div#nav-anchors {
+  max-width: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #f2f2f2;
+}
+main#main {
+  max-width: 864px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+}
+footer#footer {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  border-bottom: 1px solid #24232394;
+  color: #f2f2f2;
+  background-color: #101010;
+}
+form#form {
+  max-width: 320px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
